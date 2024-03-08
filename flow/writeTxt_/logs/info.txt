@@ -1,0 +1,44 @@
+src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
+95
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+  exec_task: pdftable_finder 
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202401311531380402.pdf --> para 202401311531380402.pdf:Page_idx: 1 4 <-> [(0, 6), (3, 9)]
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+  exec_task: pdftable_finder 
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202401311531501302.pdf --> para 202401311531501302.pdf:Page_idx: 1 5 <-> [(0, 5), (3, 7), (4, 9)]
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+NotFound sakalmarathi 288
+NotFound sakalmarathi 288
+NotFound sakalmarathi 288
+  exec_task: word_recognizer 
+	Replaced 1:84 >आं(sakalmarathi-cid:288)प्रदेश<  >SHAAGS |<
+	Tesseract on page: 5
+	Tesseract on page: 6
+	Tesseract on page: 7
+	Tesseract on page: 8
+	Tesseract on page: 9
+	Tesseract on page: 10
+	Tesseract on page: 11
+	Tesseract on page: 12
+	Tesseract on page: 13
+	Tesseract on page: 14
+  exec_task: pdftable_finder 
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202402091336061102.pdf --> para 202402091336061102.pdf:Page_idx: 5 1 <-> [(0, 4), (0, 5)]
+#docs: 94 #processed: 3
