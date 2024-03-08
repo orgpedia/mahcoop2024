@@ -1,5 +1,5 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-95
+102
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
   exec_task: word_recognizer 
@@ -7,6 +7,7 @@ src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
 	Tesseract on page: 1
 	Tesseract on page: 2
   exec_task: pdftable_finder 
+	==Total:34 Errors=34 TableEmptyBodyCellError=34
   exec_task: line_finder 
   exec_task: para_finder 
 **** PIPEERROR IN 202401311531380402.pdf --> para 202401311531380402.pdf:Page_idx: 1 4 <-> [(0, 6), (3, 9)]
@@ -17,6 +18,7 @@ src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
 	Tesseract on page: 1
 	Tesseract on page: 2
   exec_task: pdftable_finder 
+	==Total:14 Errors=14 TableEmptyBodyCellError=14
   exec_task: line_finder 
   exec_task: para_finder 
 **** PIPEERROR IN 202401311531501302.pdf --> para 202401311531501302.pdf:Page_idx: 1 5 <-> [(0, 5), (3, 7), (4, 9)]
@@ -38,7 +40,150 @@ NotFound sakalmarathi 288
 	Tesseract on page: 13
 	Tesseract on page: 14
   exec_task: pdftable_finder 
+	==Total:186 Errors=186 TableEmptyBodyCellError=186
   exec_task: line_finder 
   exec_task: para_finder 
 **** PIPEERROR IN 202402091336061102.pdf --> para 202402091336061102.pdf:Page_idx: 5 1 <-> [(0, 4), (0, 5)]
-#docs: 94 #processed: 3
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:10 Errors=10 TableEmptyBodyCellError=10
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403071056042802.pdf: >शासन निर्णय क्रमांक< >सपववि ४००२२/१/२०२४ DESKSERICULTURE CMTD<
+	elapsed_time:202403071056042802.pdf: 0.000094
+  exec_task: doc_translator_hf 
+    Paras: #62 Sentences: #25
+	[0]  #words: 32 #sentences: 13
+	After generate: 2 MB
+	[0]  #words: 264 #sentences: 51
+	After generate: 3 MB
+	[1]  #words: 258 #sentences: 21
+	After generate: 3 MB
+	[2]  #words: 29 #sentences: 2
+	After generate: 3 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403071058068202.pdf missing_cmaps: msgothic
+  exec_task: word_recognizer 
+	Replaced 6:101 >(msgothic-cid:1906)<  >७”<
+	Replaced 6:115 >(msgothic-cid:1906)<  >Y<
+  exec_task: pdftable_finder 
+	==Total:3 Errors=3 TableEmptyBodyCellError=3
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403071058068202.pdf: >शासन निर्णय क्रमांक< >सपववि-४००१३/१२/२०२३-DESK SERICULTURE-CMTD<
+	elapsed_time:202403071058068202.pdf: 0.000116
+  exec_task: doc_translator_hf 
+    Paras: #89 Sentences: #24
+	[0]  #words: 146 #sentences: 14
+	After generate: 3 MB
+	[0]  #words: 257 #sentences: 56
+	After generate: 4 MB
+	[1]  #words: 260 #sentences: 26
+	After generate: 4 MB
+	[2]  #words: 177 #sentences: 14
+	After generate: 4 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403071058506402.pdf missing_cmaps: msgothic
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:11 Errors=11 TableEmptyBodyCellError=11
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403071058506402.pdf: >शासन निर्णय क्रमांक< >सपववि ४००१९/१/२०२४ DESKSERCULTURE CMTD<
+	elapsed_time:202403071058506402.pdf: 0.000086
+  exec_task: doc_translator_hf 
+    Paras: #65 Sentences: #74
+	[0]  #words: 18 #sentences: 7
+	After generate: 4 MB
+	[0]  #words: 259 #sentences: 54
+	After generate: 4 MB
+	[1]  #words: 261 #sentences: 26
+	After generate: 4 MB
+	[2]  #words: 59 #sentences: 5
+	After generate: 4 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403071244429802.pdf missing_cmaps: msgothic
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403071244429802.pdf: >शासन निर्णय क्रमांक< >सपववि-४००३१/१/२०२३-DESKSERICULTURE-CMTD<
+	elapsed_time:202403071244429802.pdf: 0.000073
+  exec_task: doc_translator_hf 
+    Paras: #43 Sentences: #0
+	[0]  #words: 263 #sentences: 50
+	After generate: 4 MB
+	[1]  #words: 72 #sentences: 6
+	After generate: 4 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403071552467202.pdf missing_cmaps: msgothic
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403071552467202.pdf: >शासन निर्णय क्रमांक< >ससाका २०२४/प्र.क्र.०८/३ स<
+	elapsed_time:202403071552467202.pdf: 0.000080
+  exec_task: doc_translator_hf 
+    Paras: #55 Sentences: #0
+	[0]  #words: 259 #sentences: 57
+	After generate: 4 MB
+	[1]  #words: 242 #sentences: 23
+	After generate: 4 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403071723047502.pdf missing_cmaps: msgothic
+  exec_task: word_recognizer 
+	Tesseract on page: 2
+  exec_task: pdftable_finder 
+	==Total:65 Errors=65 TableEmptyBodyCellError=65
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403071723047502.pdf: >शासन निर्णय क्रमांक< >सपववि-३७०१२/२५/२०२३-DESKTEX-२<
+	elapsed_time:202403071723047502.pdf: 0.000083
+  exec_task: doc_translator_hf 
+    Paras: #38 Sentences: #0
+	[0]  #words: 261 #sentences: 40
+	After generate: 4 MB
+	[1]  #words: 89 #sentences: 5
+	After generate: 4 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403071755137602.pdf missing_cmaps: msgothic
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403071755137602.pdf: >शासन निर्णय क्रमांक< >अपदे-२७१७/प्र.क्र.०७/टेक्स-१(अ)<
+	elapsed_time:202403071755137602.pdf: 0.000074
+  exec_task: doc_translator_hf 
+    Paras: #41 Sentences: #0
+	[0]  #words: 262 #sentences: 49
+	After generate: 4 MB
+	[1]  #words: 263 #sentences: 28
+	After generate: 4 MB
+	[2]  #words: 14 #sentences: 1
+	After generate: 4 MB
+  exec_task: text_writer 
+#docs: 101 #processed: 10
