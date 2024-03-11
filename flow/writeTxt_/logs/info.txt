@@ -1,5 +1,5 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-102
+104
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
   exec_task: word_recognizer 
@@ -44,4 +44,51 @@ NotFound sakalmarathi 288
   exec_task: line_finder 
   exec_task: para_finder 
 **** PIPEERROR IN 202402091336061102.pdf --> para 202402091336061102.pdf:Page_idx: 5 1 <-> [(0, 4), (0, 5)]
-#docs: 101 #processed: 3
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:26 Errors=26 TableEmptyBodyCellError=26
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403111244581602.pdf: >शासन निर्णय क्रमांक< >मुदवा-२२२४/प्र.क्र.२३/९-स<
+	elapsed_time:202403111244581602.pdf: 0.000081
+  exec_task: doc_translator_hf 
+    Paras: #68 Sentences: #19
+	[0]  #words: 36 #sentences: 9
+	After generate: 2 MB
+	[0]  #words: 265 #sentences: 60
+	After generate: 3 MB
+	[1]  #words: 259 #sentences: 23
+	After generate: 3 MB
+	[2]  #words: 118 #sentences: 10
+	After generate: 3 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+NotFound sakalmarathi 54
+NotFound sakalmarathi 54
+NotFound sakalmarathi 54
+	202403111652544202.pdf missing_cmaps: nirmalaui
+  exec_task: word_recognizer 
+	Replaced 0:44 >(nirmalaui-cid:283)(nirmalaui-cid:301)(nirmalaui-cid:285)(nirmalaui-cid:267)(nirmalaui-cid:302)(nirmalaui-cid:267)(nirmalaui-cid:262)(nirmalaui-cid:330)(nirmalaui-cid:274)<  >शासन 1नणय<
+	Replaced 0:45 >(nirmalaui-cid:354)(nirmalaui-cid:366)(nirmalaui-cid:248)(nirmalaui-cid:278)(nirmalaui-cid:320)(nirmalaui-cid:269)(nirmalaui-cid:856)(nirmalaui-cid:857)(nirmalaui-cid:856)(nirmalaui-cid:860)(nirmalaui-cid:366)(nirmalaui-cid:354)(nirmalaui-cid:860)(nirmalaui-cid:855)(nirmalaui-cid:258)(nirmalaui-cid:312)(nirmalaui-cid:411)(nirmalaui-cid:856)(nirmalaui-cid:230)<  >क्र. प्रकलप ९२९५/प्र.क्र.५०/टक्स ९ (अ<
+	Replaced 2:61 >(sakalmarathi-cid:54)<  >Q<
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403111652544202.pdf: >शासन निर्णय क्रमांक< >प्रकल्प १२२३/प्र.क्र.८/टेक्स-१ (ब)<
+	elapsed_time:202403111652544202.pdf: 0.000085
+  exec_task: doc_translator_hf 
+    Paras: #61 Sentences: #0
+	[0]  #words: 257 #sentences: 63
+	After generate: 3 MB
+	[1]  #words: 264 #sentences: 29
+	After generate: 3 MB
+	[2]  #words: 22 #sentences: 2
+	After generate: 3 MB
+  exec_task: text_writer 
+#docs: 103 #processed: 5
