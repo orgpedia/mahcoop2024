@@ -1,5 +1,5 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-104
+107
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
   exec_task: word_recognizer 
@@ -48,47 +48,83 @@ NotFound sakalmarathi 288
   exec_task: pdf_cid_reader 
   exec_task: word_recognizer 
   exec_task: pdftable_finder 
-	==Total:26 Errors=26 TableEmptyBodyCellError=26
+	==Total:2 Errors=2 TableEmptyBodyCellError=2
   exec_task: line_finder 
   exec_task: para_finder 
   exec_task: extract_order_number 
-	extract_order_number:202403111244581602.pdf: >शासन निर्णय क्रमांक< >मुदवा-२२२४/प्र.क्र.२३/९-स<
-	elapsed_time:202403111244581602.pdf: 0.000081
+	extract_order_number:202403121145487002.pdf: >शासन निर्णय क्रमांक< >अर्थसं ०४२३/प्र.क्र.१२०/१८-स<
+	elapsed_time:202403121145487002.pdf: 0.000117
   exec_task: doc_translator_hf 
-    Paras: #68 Sentences: #19
-	[0]  #words: 36 #sentences: 9
-	After generate: 2 MB
-	[0]  #words: 265 #sentences: 60
+    Paras: #74 Sentences: #0
+	[0]  #words: 264 #sentences: 59
 	After generate: 3 MB
-	[1]  #words: 259 #sentences: 23
+	[1]  #words: 261 #sentences: 25
 	After generate: 3 MB
-	[2]  #words: 118 #sentences: 10
+	[2]  #words: 129 #sentences: 10
 	After generate: 3 MB
   exec_task: text_writer 
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-NotFound sakalmarathi 54
-NotFound sakalmarathi 54
-NotFound sakalmarathi 54
-	202403111652544202.pdf missing_cmaps: nirmalaui
+	202403121150541002.pdf missing_cmaps: dvotsurekhmr, dvotsurekhmrbold
   exec_task: word_recognizer 
-	Replaced 0:44 >(nirmalaui-cid:283)(nirmalaui-cid:301)(nirmalaui-cid:285)(nirmalaui-cid:267)(nirmalaui-cid:302)(nirmalaui-cid:267)(nirmalaui-cid:262)(nirmalaui-cid:330)(nirmalaui-cid:274)<  >शासन 1नणय<
-	Replaced 0:45 >(nirmalaui-cid:354)(nirmalaui-cid:366)(nirmalaui-cid:248)(nirmalaui-cid:278)(nirmalaui-cid:320)(nirmalaui-cid:269)(nirmalaui-cid:856)(nirmalaui-cid:857)(nirmalaui-cid:856)(nirmalaui-cid:860)(nirmalaui-cid:366)(nirmalaui-cid:354)(nirmalaui-cid:860)(nirmalaui-cid:855)(nirmalaui-cid:258)(nirmalaui-cid:312)(nirmalaui-cid:411)(nirmalaui-cid:856)(nirmalaui-cid:230)<  >क्र. प्रकलप ९२९५/प्र.क्र.५०/टक्स ९ (अ<
-	Replaced 2:61 >(sakalmarathi-cid:54)<  >Q<
+	Tesseract on page: 3
+	Tesseract on page: 4
+	Tesseract on page: 5
+	Tesseract on page: 6
+	Tesseract on page: 7
+	Tesseract on page: 8
+	Tesseract on page: 9
+	Tesseract on page: 10
+	Tesseract on page: 11
+	Tesseract on page: 12
+	Tesseract on page: 13
+	Tesseract on page: 14
+	Tesseract on page: 15
+	Tesseract on page: 16
   exec_task: pdftable_finder 
-	==Total:0 Errors=0 
+	==Total:4314 Errors=4314 TableEmptyBodyCellError=4314
   exec_task: line_finder 
   exec_task: para_finder 
   exec_task: extract_order_number 
-	extract_order_number:202403111652544202.pdf: >शासन निर्णय क्रमांक< >प्रकल्प १२२३/प्र.क्र.८/टेक्स-१ (ब)<
-	elapsed_time:202403111652544202.pdf: 0.000085
+	extract_order_number:202403121150541002.pdf: >शासन निर्णय क्रमांक< >सगृयो १०२१/प्र.क्र.५९/१४-स<
+	elapsed_time:202403121150541002.pdf: 0.000115
   exec_task: doc_translator_hf 
-    Paras: #61 Sentences: #0
-	[0]  #words: 257 #sentences: 63
+    Paras: #82 Sentences: #0
+	[0]  #words: 258 #sentences: 56
 	After generate: 3 MB
-	[1]  #words: 264 #sentences: 29
+	[1]  #words: 262 #sentences: 24
 	After generate: 3 MB
-	[2]  #words: 22 #sentences: 2
+	[2]  #words: 265 #sentences: 21
+	After generate: 3 MB
+	[3]  #words: 74 #sentences: 3
 	After generate: 3 MB
   exec_task: text_writer 
-#docs: 103 #processed: 5
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403121248067902.pdf missing_cmaps: dvotsurekhmr, sakalmarathinormal, dvotsurekhmrbold
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+	Tesseract on page: 3
+  exec_task: pdftable_finder 
+	==Total:16 Errors=16 TableEmptyBodyCellError=16
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403121248067902.pdf: >शासन निर्णय क्रमांक< >प्रकल्प १२२४/प्र.क्र.०५/टेक्स१ (ब)<
+	elapsed_time:202403121248067902.pdf: 0.000111
+  exec_task: doc_translator_hf 
+    Paras: #50 Sentences: #25
+	[0]  #words: 47 #sentences: 19
+	After generate: 3 MB
+	[0]  #words: 257 #sentences: 61
+	After generate: 12 MB
+	[1]  #words: 268 #sentences: 31
+	After generate: 12 MB
+	[2]  #words: 273 #sentences: 19
+	After generate: 12 MB
+	[3]  #words: 261 #sentences: 9
+	After generate: 12 MB
+  exec_task: text_writer 
+#docs: 106 #processed: 6
