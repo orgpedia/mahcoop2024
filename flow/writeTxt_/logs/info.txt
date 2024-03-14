@@ -1,5 +1,5 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-107
+120
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
   exec_task: word_recognizer 
@@ -44,4 +44,250 @@ NotFound sakalmarathi 288
   exec_task: line_finder 
   exec_task: para_finder 
 **** PIPEERROR IN 202402091336061102.pdf --> para 202402091336061102.pdf:Page_idx: 5 1 <-> [(0, 4), (0, 5)]
-#docs: 106 #processed: 3
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:1 Errors=1 TableEmptyBodyCellError=1
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403131121231502.pdf: >शासन निर्णय क्रमांक< >राजस-२०२४/प्र.क्र.५६/५ स<
+	elapsed_time:202403131121231502.pdf: 0.000090
+  exec_task: doc_translator_hf 
+    Paras: #29 Sentences: #11
+	[0]  #words: 10 #sentences: 6
+	After generate: 2 MB
+	[0]  #words: 251 #sentences: 38
+	After generate: 8 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403131124322702.pdf: >शासन निर्णय क्रमांक< >राजस-२०२४/प्र.क्र.४३/५ स<
+	elapsed_time:202403131124322702.pdf: 0.000076
+  exec_task: doc_translator_hf 
+    Paras: #39 Sentences: #0
+	[0]  #words: 266 #sentences: 51
+	After generate: 10 MB
+	[1]  #words: 145 #sentences: 11
+	After generate: 10 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403131127338902.pdf: >शासन निर्णय क्रमांक< >राजस-२०२४/प्र.क्र.५१/५ स<
+	elapsed_time:202403131127338902.pdf: 0.000077
+  exec_task: doc_translator_hf 
+    Paras: #49 Sentences: #0
+	[0]  #words: 259 #sentences: 53
+	After generate: 10 MB
+	[1]  #words: 244 #sentences: 21
+	After generate: 10 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:76 Errors=76 TableEmptyBodyCellError=76
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403131130316502.pdf: >शासन निर्णय क्रमांक< >राजस-२०२४/प्र.क्र.५२/५ स<
+	elapsed_time:202403131130316502.pdf: 0.000083
+  exec_task: doc_translator_hf 
+    Paras: #44 Sentences: #0
+	[0]  #words: 264 #sentences: 53
+	After generate: 10 MB
+	[1]  #words: 242 #sentences: 18
+	After generate: 10 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:5 Errors=5 TableEmptyBodyCellError=5
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403131211274502.pdf: >शासन निर्णय क्रमांक< >अस्थामु-२०२४/प्र.क्र.१२/१-स<
+	elapsed_time:202403131211274502.pdf: 0.000078
+  exec_task: doc_translator_hf 
+    Paras: #48 Sentences: #0
+	[0]  #words: 258 #sentences: 44
+	After generate: 10 MB
+	[1]  #words: 144 #sentences: 12
+	After generate: 10 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:1 Errors=1 TableEmptyBodyCellError=1
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403141212087702.pdf: >शासन निर्णय क्रमांक< >राजस-२०२४/प्र.क्र.५७/५ स<
+	elapsed_time:202403141212087702.pdf: 0.000083
+  exec_task: doc_translator_hf 
+    Paras: #30 Sentences: #17
+	[0]  #words: 19 #sentences: 8
+	After generate: 10 MB
+	[0]  #words: 245 #sentences: 40
+	After generate: 10 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:3 Errors=3 TableEmptyBodyCellError=3
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403141215014802.pdf: >शासन निर्णय क्रमांक< >राजस-२०२४/प्र.क्र.५८/५ स<
+	elapsed_time:202403141215014802.pdf: 0.000074
+  exec_task: doc_translator_hf 
+    Paras: #40 Sentences: #0
+	[0]  #words: 260 #sentences: 50
+	After generate: 10 MB
+	[1]  #words: 128 #sentences: 10
+	After generate: 10 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:11 Errors=11 TableEmptyBodyCellError=11
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403141218275902.pdf: >शासन निर्णय क्रमांक< >राजस-२०२४/प्र.क्र.५४/५ स<
+	elapsed_time:202403141218275902.pdf: 0.000078
+  exec_task: doc_translator_hf 
+    Paras: #31 Sentences: #0
+	[0]  #words: 239 #sentences: 40
+	After generate: 10 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403141221081602.pdf missing_cmaps: bahnschriftsemiboldsemicondenbold
+  exec_task: word_recognizer 
+	Replaced 1:208 >(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:1)पृष्ट्ठ<  >पृष्ठ<
+	Replaced 1:209 >(bahnschriftsemiboldsemicondenbold-cid:632)(bahnschriftsemiboldsemicondenbold-cid:1)पैकी(bahnschriftsemiboldsemicondenbold-cid:1)(bahnschriftsemiboldsemicondenbold-cid:632)<  >2 पका 2<
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403141221081602.pdf: >शासन निर्णय क्रमांक< >राजस-२०२४/प्र.क्र.५५/५ स<
+	elapsed_time:202403141221081602.pdf: 0.000090
+  exec_task: doc_translator_hf 
+    Paras: #34 Sentences: #4
+	[0]  #words: 5 #sentences: 3
+	After generate: 10 MB
+	[0]  #words: 263 #sentences: 43
+	After generate: 10 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403141223379102.pdf missing_cmaps: bahnschriftsemiboldsemicondenbold
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:1 Errors=1 TableEmptyBodyCellError=1
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403141223379102.pdf: >शासन निर्णय क्रमांक< >राजस-२०२४/प्र.क्र.४४/५ स<
+	elapsed_time:202403141223379102.pdf: 0.000079
+  exec_task: doc_translator_hf 
+    Paras: #33 Sentences: #38
+	[0]  #words: 36 #sentences: 15
+	After generate: 10 MB
+	[0]  #words: 263 #sentences: 42
+	After generate: 10 MB
+	[1]  #words: 48 #sentences: 4
+	After generate: 10 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403141226236002.pdf missing_cmaps: bahnschriftsemiboldsemicondenbold
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403141226236002.pdf: >शासन निर्णय क्रमांक< >राजस-२०२४/प्र.क्र. ५३/५ स<
+	elapsed_time:202403141226236002.pdf: 0.000084
+  exec_task: doc_translator_hf 
+    Paras: #47 Sentences: #23
+	[0]  #words: 16 #sentences: 10
+	After generate: 10 MB
+	[0]  #words: 258 #sentences: 53
+	After generate: 11 MB
+	[1]  #words: 213 #sentences: 18
+	After generate: 11 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403141357193202.pdf missing_cmaps: bahnschriftsemiboldsemicondenbold, mangal, sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403141357193202.pdf: >शासन निर्णय क्रमांक< >हातमाग-२०२३/प्र.क्र.९४ (भाग-१)/टेक्स-३<
+	elapsed_time:202403141357193202.pdf: 0.000106
+  exec_task: doc_translator_hf 
+    Paras: #62 Sentences: #0
+	[0]  #words: 265 #sentences: 48
+	After generate: 11 MB
+	[1]  #words: 263 #sentences: 22
+	After generate: 11 MB
+	[2]  #words: 186 #sentences: 10
+	After generate: 11 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403141636439202.pdf missing_cmaps: bahnschriftsemiboldsemicondenbold, dvotsurekhmrnormal, mangal, dvotsurekhmrbold, sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+	Tesseract on page: 3
+	Tesseract on page: 4
+  exec_task: pdftable_finder 
+	==Total:105 Errors=105 TableEmptyBodyCellError=105
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403141636439202.pdf: Unable to find order
+	elapsed_time:202403141636439202.pdf: 0.000044
+  exec_task: doc_translator_hf 
+    Paras: #84 Sentences: #8
+	[0]  #words: 41 #sentences: 7
+	After generate: 11 MB
+	[0]  #words: 258 #sentences: 61
+	After generate: 11 MB
+	[1]  #words: 261 #sentences: 29
+	After generate: 11 MB
+	[2]  #words: 269 #sentences: 19
+	After generate: 11 MB
+	[3]  #words: 117 #sentences: 5
+	After generate: 11 MB
+  exec_task: text_writer 
+#docs: 119 #processed: 16
