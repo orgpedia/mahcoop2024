@@ -90,7 +90,7 @@ make import
 ```
 ### Generate Data
 
-After this you should have all the files needed to generate the data. Make whatever changes you need to make and then execute
+After this you should have all the files needed to generate the data. Make whatever changes you need to make and then execute 
 
 ```
 make flow
